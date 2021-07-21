@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(6, 6, 100);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: 1.18rem;
+    /* letter-spacing: 1.0px; */
+}
+
+header .brand{
+    font-size: 1.35rem;
+}
+
+.nav-links .nav-item {
+    display: inline-block;
+    padding: 0 10px;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog-topics{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 5%;
+    font-size: 1.19rem;
+}
+
+.blog-topics a{
+    color: rgb(4, 4, 41);
+}
+
+.blog-topics a:hover{
+    color: orangered;
+}
+
+.landing {
+    display: flex;
+    background-color: rgb(3, 3, 85);
+    /* flex-wrap: wrap; */
+    height: auto;
+    flex-shrink: inherit;
+    padding: 3% 0%;
+}
+
+.landing .image img{
+    border-radius: 50%;
+}
+
+
+.landing .intro-info{
+    padding: 5% 3% 0%;
+    font-size: 1.35rem;
+    color: white;
+    justify-content: space-around;
+}
+.landing h1{
+    padding-bottom: 5%;
+}
+
+.services-container h1{
+    text-align: center;
+    padding: 3% 2%;
+    font-size: 2.8rem;
+}
+
+.services{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 7%;
+    /* text-align: center; */
+}
+
+.services-item{
+    max-width: 380px;
+    font-size: 1.3rem;
+    margin: 2% 5%;
+    /* background-color: blueviolet; */
+}
+
+.services-item h2{
+    text-align: center;
+    padding: 8% 0% 8% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(3, 3, 85);
+    height: 300px;
+    color: white;
+}
