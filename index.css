@@ -65,7 +65,12 @@ a {
     padding: 3% 0%;
 }
 
+.landing .image{
+    max-width: 200%;
+}
+
 .landing .image img{
+    width: 200%;
     border-radius: 50%;
 }
 
@@ -97,8 +102,7 @@ a {
 .services-item{
     max-width: 380px;
     font-size: 1.3rem;
-    margin: 2% 5%;
-    /* background-color: blueviolet; */
+    margin: 2% 4%;
 }
 
 .services-item h2{
