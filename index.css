@@ -61,6 +61,10 @@ a {
     background-color: rgb(3, 3, 85);
     /* flex-wrap: wrap; */
     height: auto;
+<<<<<<< HEAD
+=======
+    /* flex-shrink: inherit; */
+>>>>>>> ae15012 (Responsive landing nailed)
     padding: 3% 5%;
 }
 
