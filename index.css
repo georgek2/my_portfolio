@@ -61,7 +61,6 @@ a {
     background-color: rgb(3, 3, 85);
     /* flex-wrap: wrap; */
     height: auto;
-    /* flex-shrink: inherit; */
     padding: 3% 5%;
 }
 
@@ -129,10 +128,70 @@ footer{
     color: white;
 }
 
+/* Media Queries */
 
+/* 1200px */
+/* .landing .intro-info{
+    padding: 3% 3% 5%;
+    font-size: 1.33rem;
+} */
 
+/* 1100px */
+/* .landing .intro-info{
+    padding: 3% 3% 5%;
+    font-size: 1.23rem;
+} */
 
+/* 1020 */
+/* .landing .intro-info{
+    padding: 3% 3% 5%;
+    font-size: 1.2rem;
+}
+.landing h1{
+    padding-bottom: 2.4%;
+} */
 
+/* 990px */
+/* .landing .intro-info{
+    padding: 2.3% 3% 5%;
+    font-size: 1.13rem;
+}
+.landing h1{
+    padding-bottom: 2.5%;
+} */
 
+/* 900px */
+/* .landing .intro-info{
+    padding: 2% 3% 5%;
+    font-size: 1.11rem;
+}
+.landing h1{
+    padding-bottom: 2.2%;
+} */
 
+/* 830 px */
+/* .landing .image{
+    width: 200%;
+}
+.landing .image img{
+    max-width: 100%;
+}
+
+.landing .intro-info{
+    font-size: 1.06rem;
+} */
+
+/* 720px */
+/* .landing{
+    flex-wrap: wrap;
+}
+
+.landing .image{
+    margin: auto;
+    width: 80%;
+}
+
+.landing .intro-info{
+    font-size: 1.28rem;
+} */
 
