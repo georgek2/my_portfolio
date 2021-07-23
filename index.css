@@ -61,23 +61,23 @@ a {
     background-color: rgb(3, 3, 85);
     /* flex-wrap: wrap; */
     height: auto;
-    flex-shrink: inherit;
-    padding: 3% 0%;
+    /* flex-shrink: inherit; */
+    padding: 3% 5%;
 }
 
 .landing .image{
-    max-width: 200%;
+    width: 200%;
 }
 
 .landing .image img{
-    width: 200%;
+    max-width: 100%;
     border-radius: 50%;
 }
 
 
 .landing .intro-info{
-    padding: 5% 3% 0%;
-    font-size: 1.35rem;
+    padding: 5% 3% 5%;
+    font-size: 1.45rem;
     color: white;
     justify-content: space-around;
 }
@@ -97,6 +97,8 @@ a {
     justify-content: space-around;
     margin-bottom: 7%;
     /* text-align: center; */
+    width: auto;
+    align-items: center;
 }
 
 .services-item{
@@ -126,3 +128,11 @@ footer{
     height: 300px;
     color: white;
 }
+
+
+
+
+
+
+
+
