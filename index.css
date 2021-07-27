@@ -130,68 +130,122 @@ footer{
 
 /* Media Queries */
 
-/* 1200px */
-/* .landing .intro-info{
-    padding: 3% 3% 5%;
-    font-size: 1.33rem;
-} */
+/* screen < 1160px  */
 
-/* 1100px */
-/* .landing .intro-info{
-    padding: 3% 3% 5%;
-    font-size: 1.23rem;
-} */
+@media screen and (max-width: 1170px) {
+    .landing{
+        padding: 4% 5%;
+    }
+    .landing .intro-info{
+        font-size: 1.4rem;
+        padding: 3% 3% 5%;
+    }
+    .landing h1{
+        padding-bottom: 3.5%;
+    }
+    
 
-/* 1020 */
-/* .landing .intro-info{
-    padding: 3% 3% 5%;
-    font-size: 1.2rem;
-}
-.landing h1{
-    padding-bottom: 2.4%;
-} */
-
-/* 990px */
-/* .landing .intro-info{
-    padding: 2.3% 3% 5%;
-    font-size: 1.13rem;
-}
-.landing h1{
-    padding-bottom: 2.5%;
-} */
-
-/* 900px */
-/* .landing .intro-info{
-    padding: 2% 3% 5%;
-    font-size: 1.11rem;
-}
-.landing h1{
-    padding-bottom: 2.2%;
-} */
-
-/* 830 px */
-/* .landing .image{
-    width: 200%;
-}
-.landing .image img{
-    max-width: 100%;
 }
 
-.landing .intro-info{
-    font-size: 1.06rem;
-} */
-
-/* 720px */
-/* .landing{
-    flex-wrap: wrap;
+@media screen and (max-width: 1160px) {
+    .landing{
+        padding: 4% 5%;
+    }
+    .landing .intro-info{
+        font-size: 1.38rem;
+    }
+    
 }
 
-.landing .image{
-    margin: auto;
-    width: 80%;
+@media screen and (max-width: 1000px) {
+    .landing .intro-info{
+        font-size: 1.33rem;
+        padding: 1.4% 3% 3%;
+    }
+    .landing h1{
+        padding-bottom: 2%;
+    }
 }
 
-.landing .intro-info{
-    font-size: 1.28rem;
-} */
+@media screen and (max-width: 920px) {
+    .landing .intro-info{
+        font-size: 1.23rem;
+        padding: 1.4% 3% 3%;
+    }
+    .landing h1{
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .landing .intro-info{
+        font-size: 1.2rem;
+        padding: 1.4% 3% 3%;
+    }
+    .landing h1{
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .landing .intro-info{
+        font-size: 1.08rem;
+        padding: 1.4% 3% 3%;
+    }
+    .landing h1{
+        padding-bottom: 1.5%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .landing{
+        padding-top: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .landing .image{
+        margin: auto;
+        width: 66%;
+    }
+    
+    .landing .intro-info{
+        font-size: 1.28rem;
+        padding: 1.4% 3% 10%;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .landing{
+        padding-top: 7%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .landing .image{
+        margin: auto;
+        width: 80%;
+    }
+    
+    .landing .intro-info{
+        font-size: 1.16rem;
+        padding: 1.4% 3% 15%;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+    .landing .intro-info{
+        font-size: 1.11rem;
+    }
+
+    .services-container div{
+        font-size: 104%;
+    }
+    .services-container h1{
+        font-size: 220%;
+    }
+}
 
