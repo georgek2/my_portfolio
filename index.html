@@ -6,32 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamuruu George</title>
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="index.css">
+
+    <!-- Media Queries -->
+    <link rel="stylesheet" href="mediaq.css">
 
 </head>
 <body>
 
     <header>
-
-        <div class="brand"><a href="#">Kamuruu George</a></div>
-        <nav class="navigation">
-            <ul class="nav-links">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">About</a></li>
-                <li class="nav-item"><a href="#">Portfolio</a></li>
-                <li class="nav-item"><a href="#">Services</a></li>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Kamuruu George</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-
     </header>
 
-    <div class="blog-topics">
+    <!-- <div class="blog-topics">
         Topics >>
         <div class="topic"><a href="#">Data Science</a></div>|
         <div class="topic"><a href="#">Machine Learning</a></div>|
         <div class="topic"><a href="#">Deep Learning</a></div>|
         <div class="topic"><a href="#">Digital Transformation</a></div>|
-    </div>
+    </div> -->
 
     <div class="landing">
         <div class="image landing-item">
@@ -194,7 +209,7 @@
     
 
 
-
+                <!-- Footer Area -->
 
     <footer>
         <div class="footer-nav">
@@ -246,6 +261,9 @@
         </div>
         
     </footer>
+
+
+    <script src="navbar.js"></script>
 
 </body>
 </html>

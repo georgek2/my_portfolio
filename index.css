@@ -4,40 +4,75 @@
     box-sizing: border-box;
 }
 
+/* background-color: rgb(6, 6, 100); */
+header{
+    border-bottom: 1px solid #E2E8F0;
+    color: black;
+}
 
-header {
-    background-color: rgb(6, 6, 100);
-    color: white;
+header nav li{
+    list-style: none;
+}
+
+header .nav-logo{
+    font-size: 1.6rem;
+}
+
+a{    
+    text-decoration: none;
+}
+
+
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
-    font-size: 1.18rem;
-    /* letter-spacing: 1.0px; */
+    padding: 1rem 1.5rem;
 }
 
-header .brand{
-    font-size: 1.35rem;
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav-links .nav-item {
-    display: inline-block;
-    padding: 0 10px;
-    color: white;
+.nav-item{
+    margin-left: 4rem;
 }
 
-header a{
-    color: white;
+.nav-link{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: black;
 }
 
-header a:hover{
+.nav-link:hover{
     text-decoration: underline;
-    text-decoration-line: underline;
+    color:rgb(6, 6, 128);
 }
 
-a {
-    text-decoration: none;
+.nav-logo{
+    font-size: 1.4rem;
+    color: black;
 }
+
+.nav-logo:hover{
+    color: rgb(6, 6, 128);
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
 
 .blog-topics{
     width: 90%;
@@ -116,7 +151,6 @@ a {
 
 .services .ppm{
     max-width: 800px;
-    flex-grow: 1;
 }
 
 
@@ -142,7 +176,7 @@ footer{
     list-style: none;
     padding: 2% 5%;
     margin-bottom: 4%;
-    align-content: center;
+    align-items: center;
     border-bottom: 2px solid white;
     width: 80%;
     margin: auto;
@@ -169,7 +203,6 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    text-decoration-line: underline;
 }
 
 .footer-items p{
@@ -195,165 +228,4 @@ footer a:hover{
     padding: 20px;
 }
 
-/* Media Queries */
-
-@media screen and (max-width: 1170px) {
-    .landing{
-        padding: 4% 5%;
-    }
-    .landing .intro-info{
-        font-size: 1.4rem;
-        padding: 3% 3% 5%;
-    }
-    .landing h1{
-        padding-bottom: 3.5%;
-    }
-    
-
-}
-
-@media screen and (max-width: 1160px) {
-    .landing{
-        padding: 4% 5%;
-    }
-    .landing .intro-info{
-        font-size: 1.38rem;
-    }
-    
-}
-
-@media screen and (max-width: 1000px) {
-    .landing .intro-info{
-        font-size: 1.33rem;
-        padding: 1.4% 3% 3%;
-    }
-    .landing h1{
-        padding-bottom: 2%;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    .landing .intro-info{
-        font-size: 1.23rem;
-        padding: 1.4% 3% 3%;
-    }
-    .landing h1{
-        padding-bottom: 2%;
-    }
-}
-
-@media screen and (max-width: 880px) {
-    .landing .intro-info{
-        font-size: 1.2rem;
-        padding: 1.4% 3% 3%;
-    }
-    .landing h1{
-        padding-bottom: 2%;
-    }
-    .footer-nav-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        line-height: 40px;
-    }
-
-    .footer-nav-item li{
-        list-style: none;
-    }
-}
-
-
-@media screen and (max-width: 760px) {
-    .landing .intro-info{
-        font-size: 1.08rem;
-        padding: 1.4% 3% 3%;
-    }
-    .landing h1{
-        padding-bottom: 1.5%;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .landing{
-        padding-top: 7%;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .landing .image{
-        margin: auto;
-        width: 66%;
-    }
-    
-    .landing .intro-info{
-        font-size: 1.28rem;
-        padding: 1.4% 3% 10%;
-    }
-
-    footer .social{
-        margin-bottom: 8%;
-    }
-    
-    footer .footer-nav{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-nav .brand{
-        display: flex;
-    }
-
-    .footer-nav ul{        
-        margin-top: 5%;
-        width: 80%;
-        margin: auto;
-    }
-
-}
-
-@media screen and (max-width: 380px) {
-    .landing{
-        padding-top: 7%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .landing .image{
-        margin: auto;
-        width: 80%;
-    }
-    
-    .landing .intro-info{
-        font-size: 1.16rem;
-        padding: 1.4% 3% 15%;
-    }
-    footer h2{
-        font-size: 1.2rem;
-    }
-    .footer-nav-item{
-        font-size: 1.08rem;
-    }
-    .footer-nav-item ul{
-        margin-bottom: 0%;
-    }
-}
-
-@media screen and (max-width: 270px) {
-    .landing .intro-info{
-        font-size: 1.11rem;
-    }
-
-    .services-container div{
-        font-size: 104%;
-    }
-    .services-container h1{
-        font-size: 220%;
-    }
-
-    .footer-items p{
-        font-size: 1.1rem;
-    }
-
-}
 
