@@ -153,11 +153,30 @@ a{
     max-width: 800px;
 }
 
+.info-button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+    color: white;
+}
 
+.info-button .service-buttons{
+    background-color: rgb(7, 7, 182);
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: none;
+}
 
+.info-button a{
+    color: rgb(236, 233, 233);
+}
 
-
-
+.info-button .service-buttons:hover{
+    background-color: orange;
+}
 
 
 
