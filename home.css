@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.landing{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    /* background-color: rgb(4, 4, 133); */
+    line-height: 30px;
+}
+
+.landing .intro-info {
+    text-align: center;
+    justify-items: center;
+    /* color: white; */
+    width: 100%;
+}
+
+
+
+
+
