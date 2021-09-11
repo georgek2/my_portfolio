@@ -13,7 +13,7 @@ header{
 header nav{
     background-color: rgb(27, 27, 139);
     display: flex;    
-    height: 10vh;
+    padding: 10px;
     justify-content: space-around;
     font-size: 1.2rem;
     align-items: center;
@@ -43,8 +43,15 @@ header ul a:hover{
     cursor: pointer;
 }
 
+/* Blog Topics Section */
 
-header .topics .blog-topics {
+header .topics{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .topics .topics-header{
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -53,18 +60,9 @@ header .topics .blog-topics {
     margin: auto;
 }
 
-header .topics{
-    padding: 10px;
-    /* height: 10vh; */
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-}
-
 header .topics ul{
     display: flex;
-    font-size: 1.18rem;
+    font-size: 1.2rem;
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
@@ -181,8 +179,38 @@ main{
     }
 }
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     header{
         margin-bottom: 6%;
     }
 } */
+
+
+@media screen and (max-width: 970px){
+    .landing-page{
+        width: 86%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .landing-page .land-item:nth-child(1){
+        width: 55%;
+        margin-right: 3%;
+    }
+    
+    .landing-page .land-item:nth-child(2){
+        max-width: 35%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .landing-page .land-item:nth-child(1){
+        width: 95%;
+        /* background-color: violet; */
+        margin-right: 3%;
+    }
+    .landing-page .aside{
+        display: none;
+    }
+}
+

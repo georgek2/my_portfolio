@@ -9,9 +9,13 @@
 .landing{
     display: flex;
     align-items: center;
-    height: 20vh;
+    padding: 28px;
     /* background-color: rgb(4, 4, 133); */
-    line-height: 30px;
+    /* line-height: 30px; */
+}
+
+.landing h1{
+    padding: 10px;
 }
 
 .landing .intro-info {

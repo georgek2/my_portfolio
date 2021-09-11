@@ -40,7 +40,7 @@ a{
 }
 
 .nav-link{
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: black;
 }
@@ -59,6 +59,7 @@ a{
     color: rgb(6, 6, 128);
 }
 
+/* Mobile menu icon */
 .hamburger {
     display: none;
 }
@@ -73,26 +74,52 @@ a{
     background-color: #101010;
 }
 
+/* Blog-topics */
 
-.blog-topics{
-    width: 90%;
-    height: 70px;
+.topics-container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0% 5%;
-    font-size: 1.19rem;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    /* background-color: brown; */
 }
 
-.blog-topics a{
+.topics-container .topics-header{
+    width: 80%;
+    padding: 10px;
+    border-bottom: 2px solid rgb(27, 27, 139);
+    margin: auto;
+}
+
+.topics-container ul{
+    display: flex;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.topics-container li{
+    padding: 2px;
+}
+
+.topics-container ul li{
+    list-style: none;
+}
+
+.topics-container ul li a{
     color: rgb(4, 4, 41);
+    padding: 10px 14px;
 }
 
-.blog-topics a:hover{
+.topics-container a:hover{
     /* color: orangered; */
     text-decoration: underline;
-    text-decoration-line: underline;
 }
+
+/* The Landing Section */
 
 .landing {
     display: flex;
