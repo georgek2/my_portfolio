@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* The Welcome Landing Section */
 
 .landing{
     display: flex;
@@ -25,6 +25,47 @@
     width: 100%;
 }
 
+/* Navigation */
+
+.header nav{
+    padding: 1rem 1.5rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+    .header nav ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: tomato;
+        width: 80%;
+        right: 0;
+        transition: ease-in .5s;
+        top: 210px;
+        text-align: center;
+    }
+
+    .header nav li{
+        padding:30px 0;
+    }
+
+    .header nav .hamburger{
+        display: block;
+    }
+}
 
 
 

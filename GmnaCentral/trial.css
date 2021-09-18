@@ -13,7 +13,7 @@ header{
 header nav{
     background-color: rgb(27, 27, 139);
     display: flex;    
-    padding: 10px;
+    /* padding: 4rem 1.5rem; */
     justify-content: space-around;
     font-size: 1.2rem;
     align-items: center;
@@ -24,7 +24,7 @@ header nav ul{
 }
 
 header nav li{
-    padding: 10px 22px;
+    padding: 4px 20px;
     list-style: none;
 }
 
