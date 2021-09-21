@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    order: unset;
+}
+
 /* The Welcome Landing Section */
 
 .landing{
@@ -65,9 +70,9 @@
 
 @media screen and (max-width: 800px) {
 
-    .landing .intro-text{
+    /* .landing .intro-text{
         display: none;
-    }
+    } */
 
     .landing .intro-header{
         font-size: 0.8rem;
@@ -77,11 +82,11 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        background-color: rgb(27, 27, 139);
+        background-color: chartreuse;
         width: 80%;
         right: -100%;
         transition: ease-in-out .4s;
-        top: 167px;
+        top: 3.8rem;
         text-align: center;
         padding-bottom: 6%;
     }

@@ -167,25 +167,6 @@ main{
 
 /* Media Queries */
 
-/* @media screen and (min-width: 950px){
-    header{
-        margin-bottom: 3%;
-    }
-}
-
-@media screen and (min-width: 600px){
-    header{
-        margin-bottom: 8%;
-    }
-}
-
-/* @media screen and (max-width: 400px){
-    header{
-        margin-bottom: 6%;
-    }
-} */
-
-
 @media screen and (max-width: 970px){
     .landing-page{
         width: 86%;
@@ -204,6 +185,9 @@ main{
 
 
 @media screen and (max-width: 800px){
+    /* .landing{
+        position: absolute;
+    } */
     .landing-page .land-item:nth-child(1){
         width: 95%;
         /* background-color: violet; */
