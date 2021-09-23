@@ -70,10 +70,6 @@ header{
 
 @media screen and (max-width: 800px) {
 
-    /* .landing .intro-text{
-        display: none;
-    } */
-
     .landing .intro-header{
         font-size: 0.8rem;
     }

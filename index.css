@@ -114,7 +114,7 @@ a{
     padding: 10px 14px;
 }
 
-.topics-container a:hover{
+.topics-container a:hover, .active{
     /* color: orangered; */
     text-decoration: underline;
 }

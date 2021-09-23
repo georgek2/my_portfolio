@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="home.css">
+
     <link rel="stylesheet" href="trial.css">
 
 </head>
@@ -14,24 +16,30 @@
     <header class="header">
         <nav>
             <a class="nav-logo" href="#">GmnaCentral</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
+            <ul id="home-navigation">
+                <li><a href="blog.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="../index.html">Portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="hamburger" id="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
 
         <div class="topics">  
             <p class="topics-header" style="text-align: center;">Blog Topics </p>         
             <!-- <a href="#">Topics:</a> -->
             <ul>
-                <li><a href="#">Data Science</a><span>|</span></li>
+                <li><a href="ds.html">Data Science</a><span>|</span></li>
                 <li><a href="#">Machine Learning</a><span>|</span></li>
-                <li><a href="#">Data Analytics</a><span>|</span></li>
-                <li><a href="#">Deep Learning</a><span>|</span></li>
-                <li><a href="#">Digital Transformation</a><span>|</span></li>
-                <li><a href="#">Cloud Migration</a></li>
+                <li><a href="da.html">Data Analytics</a><span>|</span></li>
+                <li><a href="dl.html">Deep Learning</a><span>|</span></li>
+                <li><a href="dt.html">Digital Transformation</a><span>|</span></li>
+                <li><a href="cm.html">Cloud Migration</a></li>
             </ul>
         </div>
     </header>
@@ -40,13 +48,13 @@
 
         <div class="p-title land-item">
             <div class="p-header">
-                <h1>Machine Learning: Leverage Predicitive Modelling
-                    To Stay Ahead of the Competition
+                <h1>Data Science: Deliver Value for your Organization
+                    From your Data
                 </h1>
             </div>
             <div class="land-image">
                 <div class="image">
-                    <img src="ml.jfif" alt="#">
+                    <img src="ds.jfif" alt="#">
                 </div>
             </div>
         </div>
@@ -75,7 +83,7 @@
     </main>
 
 
-<script src="trial.js"></script>
+<script src="home.js"></script>
     
 </body>
 </html>
