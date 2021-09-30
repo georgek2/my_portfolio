@@ -111,13 +111,13 @@ a{
 
 .topics-container ul li a{
     color: rgb(4, 4, 41);
-    padding: 10px 14px;
+    padding: 0px 14px;
 }
 
-.topics-container a:hover, .active{
-    /* color: orangered; */
+.topics-container a:hover, .current{
     text-decoration: underline;
 }
+
 
 /* The Landing Section */
 

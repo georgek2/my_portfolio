@@ -37,10 +37,11 @@ header a{
     color: white;
 }
 
-header ul a:hover{
+header ul a:hover, .current{
     text-decoration: underline;
     /* color: orange; */
     cursor: pointer;
+    /* font-size: 1.25rem; */
 }
 
 /* Blog Topics Section */
@@ -71,7 +72,7 @@ header .topics ul{
 }
 
 header .topics li{
-    padding: 2px;
+    padding: 4px 0;
 }
 
 header li{
@@ -79,7 +80,7 @@ header li{
 }
 
 header .topics ul li a{
-    padding: 10px 14px;
+    padding: 0px 14px;
 }
 
 header .topics a{
@@ -160,41 +161,35 @@ header .topics a{
     line-height: 25px;
 }
 
-main{
-    height: 80vh;
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    background-color: rgb(10, 10, 99);
+    color: white;
 }
 
-
-/* Media Queries */
-
-@media screen and (max-width: 970px){
-    .landing-page{
-        width: 86%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .landing-page .land-item:nth-child(1){
-        width: 55%;
-        margin-right: 3%;
-    }
-    
-    .landing-page .land-item:nth-child(2){
-        max-width: 35%;
-    }
+footer .brand{
+    display: flex;
 }
 
-
-@media screen and (max-width: 800px){
-    /* .landing{
-        position: absolute;
-    } */
-    .landing-page .land-item:nth-child(1){
-        width: 95%;
-        /* background-color: violet; */
-        margin-right: 3%;
-    }
-    .landing-page .aside{
-        display: none;
-    }
+footer a{
+    color: white;
 }
 
+footer .copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+    /* height: 40px; */
+    background-color: rgb(2, 2, 51);
+}
+
+footer .copyright p:nth-child(1){
+    padding: 10px 10px;
+    text-align: center;
+}

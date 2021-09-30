@@ -1,0 +1,114 @@
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
+    .landing .intro-header{
+        font-size: 0.8rem;
+    }
+
+    .header nav ul{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(27, 27, 139);
+        width: 80%;
+        right: -100%;
+        transition: ease-in-out .4s;
+        top: 3.8rem;
+        text-align: center;
+        padding-bottom: 6%;
+    }
+
+    .header .home-navigation a{
+        animation: ease-in-out 4s;
+    }
+
+    .header nav ul.active{
+        right: 0;
+        opacity: 1;
+    }
+
+    .header nav li{
+        padding:30px 0;
+    }
+
+    .header nav .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+/* Media Queries */
+
+@media screen and (max-width: 970px){
+    .landing-page{
+        width: 86%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .landing-page .land-item:nth-child(1){
+        width: 55%;
+        margin-right: 3%;
+    }
+    
+    .landing-page .land-item:nth-child(2){
+        max-width: 35%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    /* .landing{
+        position: absolute;
+    } */
+    .landing-page .land-item:nth-child(1){
+        width: 95%;
+        /* background-color: violet; */
+        margin-right: 3%;
+    }
+    .landing-page .aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    header #home-navigation{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 260px){
+
+    header .topics ul{
+        min-width: 100%;
+    }
+
+    header .topics ul span{
+        display: none;
+    }
+
+    header .topics ul li a{
+        padding: 0px 3px;
+    }
+    .landing {
+        display: none;
+    }
+
+    .header nav ul{
+        /* width: 100%; */
+        top: 60px;
+    }
+
+}
