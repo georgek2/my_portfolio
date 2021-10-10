@@ -1,0 +1,172 @@
+
+/* Navigation */
+
+.header nav{
+    padding: 1rem 1.5rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* The Welcome Landing Section */
+
+.welcome{
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    /* background-color: rgb(4, 4, 133); */
+    /* line-height: 30px; */
+}
+
+.welcome h1{
+    padding: 10px;
+}
+
+.welcome .intro-info {
+    text-align: center;
+    justify-items: center;
+    /* color: white; */
+    width: 100%;
+}
+
+
+
+/* Main Content on Homepage */
+
+
+main section .main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    max-width: 1000px;
+}
+
+/* main section .main:nth-child(1){
+} */
+
+main img{
+    max-width: 90%;
+    margin: auto;
+}
+
+main section{
+    margin: 2.8% 0;
+}
+
+main .section-index{
+    margin-right: 4%;
+}
+
+main section h2{
+    background-color: rgb(243, 243, 247);
+    border-left: 3px solid rgb(27, 27, 139);
+    margin-bottom: 2%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 750;
+    color: rgb(24, 22, 22);
+}
+
+main section .section-aside{
+    padding-top: 14%;
+}
+
+main section .aside-title{
+    padding: 8px 30px;
+    background-color: rgb(243, 243, 247);
+    border-left: 3px solid rgb(27, 27, 139);
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+}
+
+main section ul li a{
+    font-size: 1.18rem;
+}
+
+
+main section ul a{
+    text-decoration: none;
+    color: rgb(7, 7, 167);
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+
+/* main section .more{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+} */
+
+main .more{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    padding-bottom: 7%;
+    background-color: rgb(250, 250, 255);
+}
+
+main .more .more-header{    
+    font-size: 1.4rem;
+    border-bottom: 3px solid rgb(27, 27, 139);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 4% 0 1.6% 0;
+}
+
+main section .more-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 96%;
+    margin: auto;
+}
+
+main section .more-items .more-item{
+    /* background-color: rgb(90, 57, 57); */
+    max-width: 300px;
+    padding: 2% 2% 2% 10px;
+}
+
+main section .more img{
+    max-width: 100%;
+    /* margin: auto; */
+}
+
+main section .recom{
+    font-size: 1.4rem;
+    border-bottom: 3px solid rgb(27, 27, 139);
+    text-align: center;
+    width: 50%;
+    margin: 4% auto 0;
+}
+
+main section .recom p{
+    margin: 2% 0;
+}
+
+main section .more-item h3{
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+
+
+

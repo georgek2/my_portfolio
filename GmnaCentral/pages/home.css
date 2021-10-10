@@ -41,6 +41,8 @@
     width: 100%;
 }
 
+
+
 /* Main Content on Homepage */
 
 
@@ -48,7 +50,12 @@ main section .main{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: auto;
+}
+
+main section .main:nth-child(1){
+    max-width: 60%;
 }
 
 main img{
@@ -136,11 +143,11 @@ main section .more-items{
 main section .more-items .more-item{
     /* background-color: rgb(90, 57, 57); */
     max-width: 300px;
-    padding: 2% 0 2% 10px;
+    padding: 2% 2% 2% 10px;
 }
 
 main section .more img{
-    max-width: 80%;
+    max-width: 100%;
     /* margin: auto; */
 }
 
