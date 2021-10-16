@@ -13,7 +13,7 @@ header{
 header nav{
     background-color: rgb(27, 27, 139);
     display: flex;    
-    /* padding: 4rem 1.5rem; */
+    padding: 1rem 1.5rem;
     justify-content: space-around;
     font-size: 1.2rem;
     align-items: center;
@@ -43,6 +43,22 @@ header ul a:hover, .current{
     cursor: pointer;
     /* font-size: 1.25rem; */
 }
+
+/* The Hamburger Menu */
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 
 /* Blog Topics Section */
 
@@ -86,6 +102,7 @@ header .topics ul li a{
 header .topics a{
     color: black;
 }
+/* ----------------------------- */
 
 /* The Landing page */
 

@@ -140,9 +140,11 @@ main section .more-items{
 }
 
 main section .more-items .more-item{
-    /* background-color: rgb(90, 57, 57); */
+    margin: 2% 0% 1% 0%;
+    background-color: white;
     max-width: 300px;
     padding: 2% 2% 2% 10px;
+    border-radius: 6%;
 }
 
 main section .more img{
