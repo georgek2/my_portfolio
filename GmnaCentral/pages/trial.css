@@ -121,18 +121,14 @@ header .topics a{
 }
 
 .landing-page .p-title h1{
-    margin-left: 1rem;
     font-size: 2.2rem;
+    /* padding: 2% 2% 4% 2%; */
     text-align: center;
+    padding-left: 20px;
+    padding-right: 5px;
     color: rgb(24, 22, 22);
 }
 
-
-.landing-page .land-item:nth-child(1){
-    width: 65%;
-    /* background-color: violet; */
-    margin-right: 3%;
-}
 
 .landing-page .image{
     display: flex;
@@ -144,6 +140,10 @@ header .topics a{
     max-height: 500px;
     width: auto;
     background-position: center;
+}
+
+.landing-page .land-item:nth-child(1){
+    margin-right: 3%;
 }
 
 .landing-page .aside{

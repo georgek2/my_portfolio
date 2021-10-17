@@ -23,7 +23,7 @@
 .landing-page .p-title h1{
     margin-left: 1rem;
     font-size: 2.2rem;
-    text-align: inherit;
+    text-align: center;
     color: rgb(24, 22, 22);
 }
 
@@ -87,6 +87,11 @@
 /* The Landing Page for individual service pages */
 
 @media screen and (max-width: 970px){
+
+    .landing-page .p-title h1{
+        text-align: start;
+    }
+
     .landing-page{
         width: 86%;
         display: flex;
@@ -109,8 +114,23 @@
         /* background-color: violet; */
         margin-right: 3%;
     }
+    .landing-page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .landing-page .p-title h1{
+        text-align: start;
+    }
+
+    .landing-page .land-item:nth-child(2){
+        max-width: 75%;
+    }
+
     .landing-page .aside{
         display: none;
+        padding-top: 7%;
     }
 }
 

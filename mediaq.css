@@ -120,13 +120,7 @@
     }
 
 
-    .landing .intro-info{
-        font-size: 1.08rem;
-        padding: 1.4% 3% 3%;
-    }
-    .landing h1{
-        padding-bottom: 1.5%;
-    }
+
 }
 
 @media screen and (max-width: 680px) {

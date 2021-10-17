@@ -36,6 +36,9 @@
 }
 
 @media screen and (max-width: 920px) {
+
+    /* Landing-page */
+
     .landing .intro-info{
         font-size: 1.23rem;
         padding: 1.4% 3% 3%;
@@ -53,6 +56,12 @@
 
     header .nav-logo{
         font-size: 1.5rem;
+    }
+
+    /* Landing-page */
+
+    .landing-page .aside{
+        display: none;
     }
 
     .landing .intro-info{
@@ -76,6 +85,18 @@
 
 
 @media screen and (max-width: 760px) {
+
+    /* Landing-page */
+
+    .landing-page .p-title h1{
+        padding:0 0 0 20px;
+        text-align: start;
+    }
+
+    .landing-page .land-item:nth-child(1) {
+        max-width: 95%;
+        /* margin-right: 3%; */
+    }
 
     header .nav-logo{
         font-size: 1.4rem;
@@ -148,7 +169,7 @@
 @media screen and (max-width: 680px) {
 
     .landing-page{
-        padding-top: 7%;
+        padding-top: 4%;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
