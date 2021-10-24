@@ -140,7 +140,7 @@ main section .more-items{
 }
 
 main section .more-items .more-item{
-    margin: 2% 0% 1% 0%;
+    margin: 2% 1% 1% 0%;
     background-color: white;
     max-width: 300px;
     padding: 2% 2% 2% 10px;
