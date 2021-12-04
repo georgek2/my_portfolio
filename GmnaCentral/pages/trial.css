@@ -179,7 +179,62 @@ header .topics a{
     line-height: 25px;
 }
 
+/* Article Container */
 
+main{
+    display: flex;
+
+}
+
+.article-container{
+    max-width: 70%;
+    padding: 8px 24px 10px 44px;
+    margin-right: 18px;
+    font-size: larger;
+}
+
+main .article-aside{
+    max-height: 400px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.13rem;
+}
+
+#recommended{
+    padding-top: 20px;
+    margin-bottom: 180px;
+}
+
+.article-aside .a{
+    position: sticky;
+}
+
+.a-header{
+    padding-bottom: 4px;
+    border-bottom: 2px solid ;
+    border-width: 70%;
+}
+
+main ul{
+    list-style: none;
+}
+main ul li{
+    padding: 4px 0 0;
+}
+
+main a{
+    text-decoration: none;
+    color: rgb(7, 7, 167);
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* The Footer */
 
 footer{
     display: flex;

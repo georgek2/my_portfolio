@@ -145,6 +145,7 @@ main section .more-items .more-item{
     max-width: 300px;
     padding: 2% 2% 2% 10px;
     border-radius: 6%;
+    box-shadow: 1px;
 }
 
 main section .more img{
