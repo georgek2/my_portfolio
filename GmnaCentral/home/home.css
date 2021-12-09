@@ -172,4 +172,101 @@ main section .more-item h3{
 
 
 
+/* The Footer */
 
+footer{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    background-color: rgb(10, 10, 99);
+    color: white;
+}
+
+footer .brand{
+    display: flex;
+    margin: 20px;
+    padding: 0 0 20px 0;
+}
+
+#f-main{
+    max-width: 460px;
+    padding: 20px 10px;
+}
+
+footer #f-brand{
+    font-size: 1.8rem;
+    padding-bottom: 4px;
+}
+
+footer #mission{
+    font-size: 1.8rem;
+}
+
+footer .brand ul{
+    padding: 20px 10px;
+    font-size: 16px;
+}
+
+footer .brand ul li{
+    list-style: none;
+    line-height: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Topics */
+
+footer #topics{
+    max-width: 1000px;
+    padding: 16px 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer #topics ul{
+    display: flex;
+    font-size: 17px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+footer #topics li{
+    padding: 4px 0;
+    list-style: none;
+}
+
+footer #topics .topics-header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(179, 179, 230);
+    width: 80%;
+    margin: auto;
+}
+
+footer #topics ul li a{
+    padding: 0px 14px;
+}
+
+/* Copyright */
+
+footer .copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 22px;
+    flex-wrap: wrap;
+    /* height: 40px; */
+    background-color: rgb(2, 2, 51);
+}
+
+footer .copyright p:nth-child(1){
+    padding: 10px 10px;
+    text-align: center;
+}

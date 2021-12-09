@@ -164,33 +164,3 @@ header .topics a{
 
 
 
-footer{
-    display: flex;
-    flex-direction: column;
-    /* height: 500px; */
-    background-color: rgb(10, 10, 99);
-    color: white;
-}
-
-footer .brand{
-    display: flex;
-}
-
-footer a{
-    color: white;
-}
-
-footer .copyright{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 25px;
-    flex-wrap: wrap;
-    /* height: 40px; */
-    background-color: rgb(2, 2, 51);
-}
-
-footer .copyright p:nth-child(1){
-    padding: 10px 10px;
-    text-align: center;
-}

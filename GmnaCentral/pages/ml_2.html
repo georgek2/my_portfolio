@@ -122,7 +122,14 @@
                 ML is all about, and not so much on the math behind different algorithms, or how 
                 they work. These advanced topics are covered in other posts. However, to get any 
                 value from this article, some basic knowledge of statistics
-                and programming are a
+                and programming is assumed.
+                <br><br>
+                If you are an absolute beginner in programming but interested in ML, first get a 
+                good grasp of the basics such as data types, conditional statements and loops. 
+                Also, learn python for Data Science and ML from the following articles.
+                <br><br>
+                <li><a href="">Introduction to python for absolute beginners interested in AI or Web Development</a></li>
+                <li><a href="">Python for Data Science and Machine Learning in 2022: For beginners</a></li>
             </p>
             <br>
             <h3>So, what is ML?</h3>
@@ -136,7 +143,313 @@
                 use new inputs of data to predict some expected outcome without human 
                 intervention.
             </span></p>
+            <br>
+            <p>
+                The ML model will identify patterns and trends in the data provided and 
+                develop a mathematical equation that maps given inputs features, to a 
+                target variable.
+                <br><br>
+                As a beginner, you only need to roughly grasp the ML flow and the 
+                different steps in the process and the rest will follow. These steps 
+                include: <br><br>
+                <li>Problem Definition</li>
+                <li>Loading the Data</li>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Data Preparation: Biggest part of the DS Process</li>
+                <li>Model Selection</li>
+                <li>Model Training and Evaluation</li>
+                <li>Model Deployment and Monitoring (Operationalization)</li>
+                
+            </p><br>
+            <h4>Problem Definition</h4>
+            <p><br>
+                The objective of every ML project is to solve a defined problem. 
+                Ensuring that the problem at hand is explicitly understood by the project 
+                stakeholders is arguably the most important step. Vaguely defining what 
+                the objective is and the expected end product is course for failure of 
+                any ML project. Defining the target is fundamental to determining when 
+                it has been achieved.
+                <br><br>
+                ML has exceled in many industries, mainly because those involved take their 
+                time to define what issues or challenges they aim to address by applying 
+                different ML algorithms. The two main problems to explore at this stage 
+                are classification and regression problems.
+                <br><br>
+                <b><i>Classification</i>:</b> Industries all over are successfully applying 
+                ML to solve classification problems. For example, many health facilities 
+                globally have integrated AI systems in their medical procedures which have 
+                yield tremendous benefits and greatly improved patient experience. ML models 
+                fed with significant amounts of data have successfully predicted health 
+                conditions such as heart attacks, distinguished between cancer cells and 
+                healthy body cells etc. In the business context, ML has been used to 
+                predict customer churn and detecting fraudulent transactions among other 
+                applications. These constitute a classification problem.
+                <br><br>
+                Therefore, a classification problem is whereby the target variable (outcome) 
+                has a limited number of possibilities. Moreover, it can either be binary 
+                or multiclass.  A binary classification problem has only two possible outcomes.
+                 A financial transaction, for instance, will either be fraudulent or 
+                 legitimate.
+                <br></br>
+                On the other hand, a multiclass classification problem has more than two possible 
+                outcomes. In such a problem, a ML model can be trained to identify different types 
+                of classes, i.e., fruits, species of plants or animals, or classify different objects 
+                in an image. All these are multiclass classification problems.
+                <br></br>
+                <b><i>Regression</i>:</b> A regression problem is simply where the objective is to 
+                predict some numerical variable. Particularly, regression ML models have prevailed 
+                in business applications. Businesses that have adopted AI at different levels of 
+                their operations have had a superior advantage over those that still rely on legacy methods.
+                <br><br>
+                Predicting customer demand is notably one of widely used case of ML. Using historical 
+                data, companies are applying regression models to paint a picture of what the near 
+                future might look like. As such, this has enabled them to plan accordingly and optimize 
+                the use of available resources. In the real estate industry, predicting house prices using 
+                ML has become an increasingly adopted trend. 
+                <br><br>
+                Therefore, regression ML models are used when the target variable has to be expressed 
+                in terms of a numerical value, i.e. price or quantity. 
+                <br><br>
+                Other use cases of ML exist apart from regression and classification, such as <b>clustering</b>. 
+                Where the objective is to segment given observations based on their characteristics. But this 
+                is beyond the scope of this piece. For beginners, the focus should be on the two problems defined above.
+            </p>
+            <br>
+            <h4>Loading the Data</h4>
+            <br>
+            <p>
+                Bringing in the data you will be using to train the ML model is a straightforward step. The step will 
+                be determined by the model development environment. 
+                <br><br>
+                The development environment is the software you will use while writing the model code and exploring the 
+                dataset you have loaded. If you are already familiar with different development environments, then, bear with me. 
+                <br><br>
+                In contrast, if you are new to programming and don’t know what an Integrated Development Environment (IDE) is, 
+                and the different options at your disposal, don’t overthink it. Simply put, it is some software that will 
+                make your life easier as a developer, compared to writing code in the command line or bash. Microsoft Visual 
+                studio, JetBrains PyCharm, Atom and Sublime Text are all examples of IDEs and are some of the popular ones 
+                with developers. You should not dwell on selecting one, just do some research and find what you are most 
+                comfortable with. In addition to these, there are distributed python environments that come pre-installed 
+                with most of the python libraries one needs to develop a ML model end-to-end. 
+                <br><br>
+                Anaconda is my preferred distributed environment for a complete data science project. It comes with Scikit-Learn 
+                which is the most popular ML library and contains different algorithms for both classification and regression. 
+                Also, Pandas and NumPy for data preprocessing and manipulation, Matplotlib and Seaborn for data visualization 
+                which is vital during EDA. You can achieve a lot with jupyter notebooks in Anaconda, from loading data, exploratory 
+                analysis, data transformations and visualization
+                <br><br>
+                You can install anaconda here
+                <br><br>
+                Also, explore other options as many good ones are available for free.
+                Data is core to any ML project and must be imported before the next step.
 
+            </p>
+            <br>
+            <h4>Exploratory Data Analysis (EDA)</h4>
+            <br>
+            <p>
+                After loading the data, it is paramount that we understand it by examining and summarizing its characteristics, 
+                throught exploratory analysis. 
+                Think of this as investigating the data.
+                <br><br>
+                Exploratory analysis involves looking at the data visually and performing some statistical calculations on it, 
+                to become aware of what it entails. Such analysis will aid in not only detecting
+                 patterns and trends in the data but identifying outliers, anomalies and errors. 
+                 In light of this, understanding the data relies heavily on statistics for calculating 
+                 values such as the mean, median, variance, standard deviation and percentiles. 
+                 Also, looking at the distribution of the features and the target in the data. 
+                <br><br>
+                The aim of EDA is to paint a picture of the data we are working with, which is 
+                integral to choosing different techniques to clean and preprocess the data. A 
+                process that must be accomplished before fitting the selected ML model. 
+                Furthermore, after you have a good understanding of the data, your model-selection 
+                process will be better informed.
+                <br><br>EDA guides how you undertake the next step.
+            </p>
+
+            <br>
+            <h4>Data Preparation: <i>Biggest part of the DS Process</i></h4>
+            <br>
+            <p>
+                Now, I will be quick to tell you that for every ML or Data Science project, 
+                preparing the data to feed into the model will take most of the time. Most 
+                models have been designed that data used must not have missing values and have 
+                to be in numerical form. That is not how the data is in the real world.
+                <br><br>
+                For example, let’s look at some scenario in the insurance industry. Suppose 
+                we are developing intelligent systems for X Insurance Co. that will be able
+                 to predict optimal health insurance charges to guide the pricing model. 
+                 The data to use will have different features some of which will be 
+                 numerical, but others can only be categories. For this case, features 
+                 such as the age, body mass index and number of children will be numerical,
+                  or can be quantified. But others, such as marital status, whether one is 
+                  a smoker, or diabetic can only be classified. For instance, it is ‘Yes/No’ 
+                  for smoking and similarly one is either ‘Married’ or ‘Not’. 
+                  A ML model would not know how to handle such type of data. It needs to be 
+                  encoded first into some numerical format, where numbers will correspond to different categories.
+                <br><br>
+                Handling missing values is also required. The model will not work with missing 
+                entries in the dataset and they have to be first filled with some value. 
+                Missing values and categorical data are the two issues you can expect in 
+                any ML project and need to know how to handle them, but they are not the 
+                only ones. Real world data is messy. There could be inconsistent entries 
+                in the dataset, mismatched values, different formats of features, imbalanced 
+                datasets and typos are also some of the nightmares to be well equipped to 
+                overcome.
+                <br></br>
+                Fortunately, there exists very gifted and kind people out there that have developed 
+                open source code which will enable you to tackle any and every kind of challenge 
+                you encounter in preparing your dataset.
+                <br><br>
+                To understand how to analyze and manipulate your data like a pro, Numpy and Pandas are a must know. 
+                Matplotlib and Seaborn are easy to get started with and you can plot lots of graphical 
+                representation of your data with just these two. 
+                <br><br>
+                Data preparation will largely be guided by the ML model you are planning to use.
+            </p>
+            <br>
+            <h4>Model Selection</h4>
+            <br>
+            <p>
+                Model selection is easy, when the problem at hand is well defined, its just a matter of 
+                choosing between an ever-growing list of machine learning algorithms. 
+                <br><br>
+                Classification and regression algorithms are easy to implement and interpret. 
+                I guess this is where I mention the different types of ML, supervised and 
+                unsupervised. There is also reinforcement learning, but this is not for beginners. 
+                <br><br>
+                <b><i>Supervised</i>: </b>Where the data being used is labeled. These models are trained 
+                with input features and their corresponding target values. After, they can be used to make 
+                predictions of the target with new input features.
+                <br><br>
+                <b><i>Unsupervised</i>: </b>These ML models are fed with unlabeled data, and the objective 
+                is to group observations with similar characteristics together. More on this on a future post.
+                <br><br>
+                There are many ML algorithms that have been developed over the years, but some are more 
+                popular and preferred in real world cases. Linear regression is among the most used 
+                regression algorithms and logistic regression which is for classification problems. 
+                Some popular algorithms are applied for both cases, classification and regression. These include:
+                <br><br>
+                <li>Decision Tree</li>
+                <li>Random Forest</li>
+                <li>Support Vector Machines</li>
+                <li>K-Nearest Neighbor</li>
+                <br>
+                Also, there are very powerful algorithms that utilize some advanced techniques known as gradient boosting. They include:
+                <br><br>
+                <li>XGB (Extreme Gradient Boosting)</li>
+                <li>Light Gradient Boosting</li>
+
+            </p>
+
+            <br>
+            <h4>Model Training and Evaluation</h4>
+            <br>
+            <p>
+                After the model is selected, training it is a simple matter. Most of the models have the <b>fit()</b> 
+                method which is then supplied with the training data, and that’s it. 
+                <br><br>
+                Training is where the algorithm used will utilize the mathematical concepts and principles 
+                used in its design, to formulate an equation that best represents the relationship 
+                between the inputs and the output. The mathematical equation it develops internally 
+                maps the features to the target variable. 
+                <br><br>
+                With the model training complete, it can make predictions of the target variable with new 
+                input features, using a <b>predict()</b> method. The predictions made will differ based on 
+                the model used and the kind of problem being addressed. Regression algorithms will 
+                predict a continuous value for the target, while classification algorithms will predict 
+                a class or class probability of the target.  
+                <br><br>
+                Model prediction’s have to serve the intended purpose, that means asking how good they
+                are and whether they provide value. Any model trained on a set of data will make 
+                predictions as it was designed to. But sometimes these predictions may be way off 
+                from the actual target values, and deploying such as model in a production environment 
+                may result to dire costs for a business. As such, the trained model has to be validated. 
+                <br><br>
+                Validating the model means, assessing how good its predictions for the target are for a 
+                set of features it has not considered before. And whether it meets out performance 
+                requirements. The evaluation metrics will depend again on the whether it’s a 
+                classification or regression problem. 
+                <br><br>
+                For a <b>classification</b> problem, to validate the model, you have to assess how useful it 
+                will be at predicting different classes. There are numerous metrics developed for this 
+                task. Some of the metrics to use here are:
+                <br> <br>
+                <li>Accuracy Score</li>
+                <li>Precision</li>
+                <li>Recall</li>
+                <li>Confusion Matrix</li>
+                <br>
+                For a regression problem, you’ll have to determine how well the model performs when predicting 
+                the continuous target, for a given set of features. Similarly, you can use different metrics here. 
+                Some of the metrics at your disposal include:
+                <br><br>
+                <li>Mean Absolute Error</li>
+                <li>Mean Squared Error</li>
+                <li>Root Mean Squared Error</li>
+                <br>
+                In a future post, we’ll fit a model for classification and regression, and use 
+                different metrics to evaluate their performance.
+                <br><br>
+                Now comes the step where ML models are productionized to yield business value
+            </p>
+
+            <br>
+            <h4>Model Deployment and Monitoring (Operationalization)</h4>
+            <br>
+            <p>
+                Training a model without deploying it to a production environment is similar 
+                to cooking food and not eating it. The whole reason why a model is created in 
+                the first place is to use it to make address a defined problem. Therefore, 
+                creating it without using it does not make any sense and has no value whatsoever.
+                <br><br>
+                The manner in which the model is consumed differs from one scenario to another. 
+                For instance, a model trained to make predictions on consumer demand can be used 
+                once and another one will have to be created as more data comes in. Another one 
+                designed to recommend different products to a consumer while browsing through an 
+                e-commerce platform will required to make real-time recommendations while they surf.
+                <br><br>
+                In light of this, the deployment patterns for any ML model is dictated by the problem 
+                at hand. However, one model can be deployed in different settings. Therefore, 
+                the model deployment pattern will be guided by how the predictions are to be made: 
+                Some popular patterns include:
+                <br><br>
+                <li>Offline: Where the model will be used to make predictions on locally</li>
+                <li>Batch: Here, a model will be used to make predictions on a regular schedule</li>
+                <li>Real-time or Streaming: Where predictions are made as new inputs come in</li>
+
+            </p>
+            <br>
+            <p>
+                Now, where does a model live as it is being used? This is dependent on the deployment 
+                pattern. <br> <br>
+                For instance, one designed to make offline predictions can be stored and used 
+                locally, but it depends on the computational requirements. Conversely, a model to make 
+                real-time predictions might require significant compute power which most businesses might lack.
+                <br><br>
+                Well, this is where <b>cloud services</b> come in handy. Technology giants such as Google, Amazon 
+                and Microsoft offer storage and compute resources where a business does not have to invest 
+                in hardware. These services are managed and require few steps to be set up and utilized. 
+                This is a whole new topic to be covered some other time. The idea is that, you do not 
+                have to set up your own servers to run models, just look up a preferred cloud services 
+                provider and install the model on their servers. 
+                <br><br>
+                Don’t be bothered by how the model will be utilized if you are just getting started with machine 
+                learning. I recommend first you the acquire the skills to create production level 
+                code and other good staff like feature engineering, then get acquainted with how to 
+                productionize custom ML models. 
+                <br><br>
+                After you have deployed the model, that is not the end, unless you were doing a one-time, offline 
+                prediction thing. How do you ensure that it continues to provide value by making accurate 
+                predictions as desired? By monitoring it and retraining it with new data if needed, usually a good practice.
+                <br><br>
+                <b><i>Monitoring a model is a continuous process. </i></b>
+                <br><br>
+                Again, with their massive budgets, tech giants have established platforms that have made it seamless to 
+                achieve everything you need to have intelligent systems integrated into your systems, and ultimately, culture. 
+                Consequently, they provide other services for ML models in production to businesses such as monitoring the model, 
+                retraining and model retirement among others.
+            </p>
 
         </div>
 
@@ -168,6 +481,54 @@
         </div>
 
     </main>
+
+
+    <!-- The Footer Section -->
+
+    <footer id="footer">
+    
+        <div class="brand">
+            <div id="f-main">
+                <p id="f-brand"><a href="#">GmnaCentral</a></p>
+                <p id="f-mission">                    
+                    Here, you will learn Data Science, Machine Learning,
+                    Digital Transformation and more in a friendly and
+                    inviting manner.
+                </p>
+            </div>
+            <ul id="f-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div style="text-align: center;" class="f-social">
+                <p id="follow">Follow Us</p>
+            </div>
+        </div>
+
+        <div id="topics">
+            <p class="topics-header" style="text-align: center;">Blog Topics </p>
+            <!-- <a href="#">Topics:</a> -->
+            <ul style="display: flex; justify-content: space-around;">
+                <li><a href="/GmnaCentral/pages/ds.html">Data Science</a><span>|</span></li>
+                <li><a href="/GmnaCentral/pages/ml.html">Machine Learning</a><span>|</span></li>
+                <li><a href="/GmnaCentral/pages/da.html">Data Analytics</a><span>|</span></li>
+                <li><a href="/GmnaCentral/pages/dl.html">Deep Learning</a><span>|</span></li>
+                <li><a href="/GmnaCentral/pages/dt.html">Digital Transformation</a><span>|</span></li>
+                <li><a href="/GmnaCentral/pages/cm.html">Cloud Migration</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>&copy2021 GmnaCentral: All Rights Reserved</p>
+            <div class="terms">
+                <a>Privacy Policy <span>|</span></a>
+                <a>Terms of Service</a>
+            </div>
+        </div>
+
+    </footer>
 
 
     <script src="home.js"></script>
