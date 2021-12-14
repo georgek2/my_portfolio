@@ -176,8 +176,24 @@ a{
     padding: 8% 0% 8% 0%;
 }
 
+.services-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+
 .services .ppm{
     max-width: 800px;
+}
+
+.services-container p{
+    text-align: center;
+}
+
+.service-buttons{
+    color: white;
+    cursor: pointer;
 }
 
 .info-button{

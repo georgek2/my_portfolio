@@ -25,10 +25,27 @@
 .welcome{
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     padding: 28px;
+    max-width: 1400px;
+    margin: auto;
     /* background-color: rgb(4, 4, 133); */
     /* line-height: 30px; */
 }
+
+/* .welcome .creator{
+    max-width: 300px;
+} */
+
+/* .welcome div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+} */
+
+/* .welcome img{
+    max-width: 50%;
+    border-radius: 50%;
+} */
 
 .welcome h1{
     padding: 10px;
@@ -61,6 +78,7 @@ main section .main{
 main img{
     max-width: 90%;
     margin: auto;
+    display: flex;
 }
 
 main section{
@@ -75,6 +93,7 @@ main section h2{
     background-color: rgb(243, 243, 247);
     border-left: 3px solid rgb(27, 27, 139);
     margin-bottom: 2%;
+    padding: 4px 4px;
     font-size: 40px;
     text-align: center;
     font-weight: 750;
@@ -182,6 +201,11 @@ footer{
     color: white;
 }
 
+#footer-main{
+    max-width: 1200px;
+    margin-left: 5%;
+}
+
 footer .brand{
     display: flex;
     margin: 20px;
@@ -203,7 +227,7 @@ footer #mission{
 }
 
 footer .brand ul{
-    padding: 20px 10px;
+    padding: 20px 0px;
     font-size: 16px;
 }
 
@@ -221,7 +245,7 @@ footer a{
 
 footer #topics{
     max-width: 1000px;
-    padding: 16px 0 40px;
+    padding: 20px 0 40px;
     display: flex;
     flex-direction: column;
 }
@@ -251,7 +275,7 @@ footer #topics .topics-header{
 }
 
 footer #topics ul li a{
-    padding: 0px 14px;
+    padding: 0 16px 0 2px;
 }
 
 /* Copyright */
@@ -270,3 +294,8 @@ footer .copyright p:nth-child(1){
     padding: 10px 10px;
     text-align: center;
 }
+
+footer a:hover{
+    text-decoration: underline;
+}
+
