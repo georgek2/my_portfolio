@@ -5,7 +5,7 @@
         padding: 4% 5%;
     }
     .landing .intro-info{
-        font-size: 1.4rem;
+        font-size: 1.76rem;
         padding: 3% 3% 5%;
     }
     .landing h1{
@@ -20,25 +20,30 @@
         padding: 4% 5%;
     }
     .landing .intro-info{
-        font-size: 1.38rem;
+        font-size: 1.58rem;
     }
     
 }
 
 @media screen and (max-width: 1000px) {
     .landing .intro-info{
-        font-size: 1.33rem;
+        font-size: 1.53rem;
         padding: 1.4% 3% 3%;
     }
     .landing h1{
         padding-bottom: 2%;
     }
+
+    .landing .image img{
+        max-width: 360px;
+    }
+
 }
 
 @media screen and (max-width: 920px) {
     .landing .intro-info{
-        font-size: 1.23rem;
-        padding: 1.4% 3% 3%;
+        font-size: 1.53rem;
+        padding: 3.4% 3% 3%;
     }
     .landing h1{
         padding-bottom: 2%;
@@ -55,9 +60,13 @@
         font-size: 1.5rem;
     }
 
+    /* Landing */
+    .landing .image img{
+        max-width: 280px;
+    }
     .landing .intro-info{
-        font-size: 1.2rem;
-        padding: 1.4% 3% 3%;
+        font-size: 1.4rem;
+        padding: 4.4% 3% 3%;
     }
     .landing h1{
         padding-bottom: 2%;
@@ -139,11 +148,14 @@
     .landing .intro-info{
         margin-top: 2%;
         font-size: 1.28rem;
-        padding: 1.4% 3% 10%;
+        padding: 5.4% 3% 10%;
     }
 
+    /* Landing Page */
 
-
+    .landing .image img{
+        max-width: 240px;
+    }
 
     /* Footer Responsiveness */
     footer .social{
@@ -168,7 +180,7 @@
 }
 
 @media screen and (max-width: 380px) {
-    .landing{
+    .land-container{
         padding-top: 7%;
         display: flex;
         flex-wrap: wrap;
