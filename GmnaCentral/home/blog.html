@@ -13,6 +13,9 @@
 
     <!-- Media Queries -->
     <link rel="stylesheet" href="mediaq.css">
+    <!-- Socials -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -35,7 +38,14 @@
                 <span class="bar"></span>
             </div>
         </nav>
-
+        <!-- Socials -->
+        <div class="nav-socials">
+            <div class="socials">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
         <div class="welcome">
 
             <div class="intro-info">
@@ -451,6 +461,13 @@
                         Digital Transformation and more in a friendly and
                         inviting manner.
                     </p>
+                    <div id="contacts" style="display: flex; margin-top: 4%; justify-content: space-around;">
+                        <p style="font-size: 20px;">Reach Out</p>
+                        <form style="display: flex; flex-direction: column;" action="">
+                            <input style="width: 300px; height: 160px;" type="text" placeholder="Enter your message">
+                            <input style="width: 300px; height: 30px;" type="submit">
+                        </form>
+                    </div>
                 </div>
                 <ul id="f-nav">
                     <li><a href="#">Home</a></li>
@@ -458,8 +475,18 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <div style="text-align: center;" class="f-social">
-                    <p id="follow">Follow Us</p>
+                <div id="follow">
+                    <p>Follow Us</p>
+                    <div class="socials">
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-github"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                    <form action="" id="form">
+                        <p>Article Notifications!</p>
+                        <input class="inputs" type="text" placeholder="Enter email..">
+                        <input class="inputs" id="subscribe" type="submit" value="Subscribe">
+                    </form>
                 </div>
             </div>
     

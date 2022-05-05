@@ -143,14 +143,14 @@ a{
 } */
 
 .landing .image img{
-    max-width: 400px;
+    max-width: 280px;
     border-radius: 50%;
     margin-right: 0;
 }
 
 
 .landing .intro-info{
-    padding: 5% 3% 5%;
+    padding: 3% 3% 5%;
     font-size: 1.85rem;
     color: white;
     justify-content: space-around;
@@ -170,7 +170,7 @@ a{
 .landing #me{
     font-size: 16px;
     padding: 10px 10px;
-    margin-top: 14%;
+    margin-top: 10%;
     border: none;
     border-radius: 4px;    
     background-color: rgb(7, 7, 182);
@@ -190,6 +190,35 @@ a{
     background-color: orange;
 }
 
+/* Socials */
+.socials{
+    margin-top: 4%;
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials .fa{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 50%;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: #171515;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
 
 /* Services Section */
 

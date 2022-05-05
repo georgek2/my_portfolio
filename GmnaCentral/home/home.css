@@ -63,6 +63,39 @@ body{
     width: 100%;
 }
 
+/* Socials */
+.nav-socials{
+    top: 10%;
+    padding: 10px;
+    position: absolute;
+    scroll-behavior: inherit;
+}
+.socials{
+    display: inline-block;
+    position: sticky;
+}
+
+.socials .fa{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 50%;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: #171515;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
 
 
 /* Main Content on Homepage */
@@ -214,8 +247,10 @@ footer{
 
 footer .brand{
     display: flex;
+    justify-content: space-around;
     margin: 20px;
     padding: 0 0 20px 0;
+    width: 80%;
 }
 
 #f-main{
@@ -247,8 +282,29 @@ footer a{
     text-decoration: none;
 }
 
-/* Topics */
+/* Footer Socials */
+footer #follow{
+    text-align: center;
+}
 
+/* Notifications Form */
+footer #form{
+    margin-top: 18%;
+    font-size: larger;
+}
+
+footer .inputs{
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+footer #subscribe:hover{
+    background-color: orange;
+}
+
+/* Topics */
 footer #topics{
     max-width: 1000px;
     padding: 20px 0 40px;
